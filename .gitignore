@@ -1,0 +1,10 @@
+## User settings
+xcuserdata/
+.DS_Store
+report.xml
+*.dSYM.zip
+*.ipa
+.bundle/
+Youtility/fastlane/test_output
+Youtility/YoutilitySnapshotTests/FailureDiffs
+swiftlint.result.json

@@ -1,0 +1,6 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "VersionNumber.xcconfig"
+APP_ICON = AppIcon
+user_api_url = https:\/\/jsonplaceholder.typicode.com
