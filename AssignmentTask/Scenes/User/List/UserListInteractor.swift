@@ -22,15 +22,31 @@ extension UserListInteractor: UserListBusinessLogic {
 
     func fetchUsers(request: UserList.FetchUser.Request) {
         favoriteUserDataService.addObserver(self)
-        userService.getUsers { [weak self] result in
-            switch result {
-            case .success(let users):
-                let updatedUsers = self?.updateFavoriteUsers(users) ?? []
-                self?.users = updatedUsers
-                self?.presenter?.presentUsers(response: .init(users: updatedUsers))
-            case .failure(let error):
-                self?.presenter?.presentError(response: .init(message: error.localizedDescription))
+        if Reachability.isConnectedToNetwork() {
+            userService.getUsers { [weak self] result in
+                switch result {
+                case .success(let users):
+                    self?.persistUsers(users: users)
+                    let updatedUsers = self?.updateFavoriteUsers(users) ?? []
+                    self?.users = updatedUsers
+                    self?.presenter?.presentUsers(response: .init(users: updatedUsers))
+                case .failure(let error):
+                    self?.presenter?.presentError(response: .init(message: error.localizedDescription))
+                }
             }
+        } else {
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            let users = UserStore(context: context).fetchAll()
+            let updatedUsers = updateFavoriteUsers(users)
+            self.users = updatedUsers
+            presenter?.presentUsers(response: .init(users: updatedUsers))
+        }
+    }
+
+    private func persistUsers(users: [User]) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        for user in users {
+            UserStore(context: context).insert(user)
         }
     }
 

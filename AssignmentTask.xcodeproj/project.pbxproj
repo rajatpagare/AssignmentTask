@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0275E54F668130C37DF0C533 /* Pods_AssignmentTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E350589B7D79364130D834F /* Pods_AssignmentTask.framework */; };
-		333AE3652952E4677CA82D96 /* Pods_AssignmentTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E350589B7D79364130D834F /* Pods_AssignmentTask.framework */; };
 		583390EE9E62070166D5AFB8 /* Pods_AssignmentTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82044ACE61C773704B98947 /* Pods_AssignmentTaskTests.framework */; };
 		7674E2D425247A5600B48C63 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7674E2CE25247A5600B48C63 /* UserListPresenter.swift */; };
 		7674E2D525247A5600B48C63 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7674E2CE25247A5600B48C63 /* UserListPresenter.swift */; };
@@ -192,6 +191,45 @@
 		76CBB4EA252472B10061F6DF /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CBB4BD2524724C0061F6DF /* Enviroment.swift */; };
 		76CBB4EE252472B10061F6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CBB48025245B930061F6DF /* LaunchScreen.storyboard */; };
 		76CBB4EF252472B10061F6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CBB47E25245B930061F6DF /* Assets.xcassets */; };
+		76D280F1256BE6CB00402993 /* ManagedObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F0256BE6CB00402993 /* ManagedObjectConvertible.swift */; };
+		76D28180256CC31100402993 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28178256CC31000402993 /* Company+CoreDataProperties.swift */; };
+		76D28181256CC31100402993 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28178256CC31000402993 /* Company+CoreDataProperties.swift */; };
+		76D28182256CC31100402993 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28178256CC31000402993 /* Company+CoreDataProperties.swift */; };
+		76D28183256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28179256CC31000402993 /* AddressCoordinates+CoreDataClass.swift */; };
+		76D28184256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28179256CC31000402993 /* AddressCoordinates+CoreDataClass.swift */; };
+		76D28185256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D28179256CC31000402993 /* AddressCoordinates+CoreDataClass.swift */; };
+		76D28186256CC31100402993 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817A256CC31100402993 /* Address+CoreDataClass.swift */; };
+		76D28187256CC31200402993 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817A256CC31100402993 /* Address+CoreDataClass.swift */; };
+		76D28188256CC31200402993 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817A256CC31100402993 /* Address+CoreDataClass.swift */; };
+		76D28189256CC31200402993 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817B256CC31100402993 /* Address+CoreDataProperties.swift */; };
+		76D2818A256CC31200402993 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817B256CC31100402993 /* Address+CoreDataProperties.swift */; };
+		76D2818B256CC31200402993 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817B256CC31100402993 /* Address+CoreDataProperties.swift */; };
+		76D2818C256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817C256CC31100402993 /* AddressCoordinates+CoreDataProperties.swift */; };
+		76D2818D256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817C256CC31100402993 /* AddressCoordinates+CoreDataProperties.swift */; };
+		76D2818E256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817C256CC31100402993 /* AddressCoordinates+CoreDataProperties.swift */; };
+		76D2818F256CC31200402993 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817D256CC31100402993 /* Company+CoreDataClass.swift */; };
+		76D28190256CC31200402993 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817D256CC31100402993 /* Company+CoreDataClass.swift */; };
+		76D28191256CC31200402993 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817D256CC31100402993 /* Company+CoreDataClass.swift */; };
+		76D28192256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817E256CC31100402993 /* ATUser+CoreDataClass.swift */; };
+		76D28193256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817E256CC31100402993 /* ATUser+CoreDataClass.swift */; };
+		76D28194256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817E256CC31100402993 /* ATUser+CoreDataClass.swift */; };
+		76D28195256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817F256CC31100402993 /* ATUser+CoreDataProperties.swift */; };
+		76D28196256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817F256CC31100402993 /* ATUser+CoreDataProperties.swift */; };
+		76D28197256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2817F256CC31100402993 /* ATUser+CoreDataProperties.swift */; };
+		76D2819B256CC42E00402993 /* UserDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F2256BE93600402993 /* UserDB.xcdatamodeld */; };
+		76D2819C256CC43600402993 /* UserDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F2256BE93600402993 /* UserDB.xcdatamodeld */; };
+		76D2819D256CC43F00402993 /* UserDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F2256BE93600402993 /* UserDB.xcdatamodeld */; };
+		76D281A2256CD17E00402993 /* ManagedObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F0256BE6CB00402993 /* ManagedObjectConvertible.swift */; };
+		76D281A3256CD17F00402993 /* ManagedObjectConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D280F0256BE6CB00402993 /* ManagedObjectConvertible.swift */; };
+		76D281A9256CD4B300402993 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281A8256CD4B300402993 /* UserStore.swift */; };
+		76D281AA256CD4B300402993 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281A8256CD4B300402993 /* UserStore.swift */; };
+		76D281AB256CD4B300402993 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281A8256CD4B300402993 /* UserStore.swift */; };
+		76D281AD256CDD5800402993 /* UserManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281AC256CDD5800402993 /* UserManagedObject.swift */; };
+		76D281AE256CDD5800402993 /* UserManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281AC256CDD5800402993 /* UserManagedObject.swift */; };
+		76D281AF256CDD5800402993 /* UserManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281AC256CDD5800402993 /* UserManagedObject.swift */; };
+		76D281B1256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281B0256D2F6000402993 /* ReachabilityObserverDelegate.swift */; };
+		76D281B2256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281B0256D2F6000402993 /* ReachabilityObserverDelegate.swift */; };
+		76D281B3256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D281B0256D2F6000402993 /* ReachabilityObserverDelegate.swift */; };
 		89EEC8552A3B5F4F3F075CE3 /* Pods_AssignmentTask_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C893639FF198591E195646 /* Pods_AssignmentTask_Staging.framework */; };
 		FD221AF4A81ED1F7CDB202E9 /* Pods_AssignmentTask_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4A9CF390D41597AF97942E /* Pods_AssignmentTask_Dev.framework */; };
 /* End PBXBuildFile section */
@@ -308,6 +346,19 @@
 		76CBB4FF252473530061F6DF /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		76CBB500252473530061F6DF /* Production-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Production-Release.xcconfig"; sourceTree = "<group>"; };
 		76CBB501252473530061F6DF /* Production-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Production-Debug.xcconfig"; sourceTree = "<group>"; };
+		76D280F0256BE6CB00402993 /* ManagedObjectConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectConvertible.swift; sourceTree = "<group>"; };
+		76D280F3256BE93600402993 /* UserDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDB.xcdatamodel; sourceTree = "<group>"; };
+		76D28178256CC31000402993 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76D28179256CC31000402993 /* AddressCoordinates+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddressCoordinates+CoreDataClass.swift"; sourceTree = "<group>"; };
+		76D2817A256CC31100402993 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		76D2817B256CC31100402993 /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76D2817C256CC31100402993 /* AddressCoordinates+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddressCoordinates+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76D2817D256CC31100402993 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		76D2817E256CC31100402993 /* ATUser+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ATUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		76D2817F256CC31100402993 /* ATUser+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ATUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		76D281A8256CD4B300402993 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		76D281AC256CDD5800402993 /* UserManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManagedObject.swift; sourceTree = "<group>"; };
+		76D281B0256D2F6000402993 /* ReachabilityObserverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityObserverDelegate.swift; sourceTree = "<group>"; };
 		82AEA0B75355C59695BD4052 /* Pods-AssignmentTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTask.release.xcconfig"; path = "Target Support Files/Pods-AssignmentTask/Pods-AssignmentTask.release.xcconfig"; sourceTree = "<group>"; };
 		89AA9F0EC398213E0A4D7E11 /* Pods-AssignmentTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-AssignmentTaskUITests/Pods-AssignmentTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94E6D582A8D72C33E074CA4B /* Pods-AssignmentTask-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTask-Staging.release.xcconfig"; path = "Target Support Files/Pods-AssignmentTask-Staging/Pods-AssignmentTask-Staging.release.xcconfig"; sourceTree = "<group>"; };
@@ -326,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0275E54F668130C37DF0C533 /* Pods_AssignmentTask.framework in Frameworks */,
-				333AE3652952E4677CA82D96 /* Pods_AssignmentTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +427,7 @@
 		7674E2CC2524796800B48C63 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				76D280EE256BE4B900402993 /* DBServices */,
 				76CBB4AD2524614F0061F6DF /* UserService */,
 			);
 			path = Services;
@@ -716,6 +767,7 @@
 			children = (
 				76CBB4AB25245EF40061F6DF /* AlamofireNetwork.swift */,
 				76CBB4A925245D800061F6DF /* Network.swift */,
+				76D281B0256D2F6000402993 /* ReachabilityObserverDelegate.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -756,6 +808,41 @@
 				76CBB4FC252473530061F6DF /* VersionNumber.xcconfig */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		76D280EE256BE4B900402993 /* DBServices */ = {
+			isa = PBXGroup;
+			children = (
+				76D28157256CC2A700402993 /* Entities */,
+				76D280EF256BE6B500402993 /* Configuration */,
+				76D280F2256BE93600402993 /* UserDB.xcdatamodeld */,
+			);
+			path = DBServices;
+			sourceTree = "<group>";
+		};
+		76D280EF256BE6B500402993 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				76D280F0256BE6CB00402993 /* ManagedObjectConvertible.swift */,
+				76D281AC256CDD5800402993 /* UserManagedObject.swift */,
+				76D281A8256CD4B300402993 /* UserStore.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		76D28157256CC2A700402993 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				76D2817F256CC31100402993 /* ATUser+CoreDataProperties.swift */,
+				76D2817E256CC31100402993 /* ATUser+CoreDataClass.swift */,
+				76D28178256CC31000402993 /* Company+CoreDataProperties.swift */,
+				76D2817D256CC31100402993 /* Company+CoreDataClass.swift */,
+				76D2817C256CC31100402993 /* AddressCoordinates+CoreDataProperties.swift */,
+				76D28179256CC31000402993 /* AddressCoordinates+CoreDataClass.swift */,
+				76D2817B256CC31100402993 /* Address+CoreDataProperties.swift */,
+				76D2817A256CC31100402993 /* Address+CoreDataClass.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		D545FDC7A78936BB8C0D62B1 /* Frameworks */ = {
@@ -1101,9 +1188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D2819D256CC43F00402993 /* UserDB.xcdatamodeld in Sources */,
 				7674E3782524BB2200B48C63 /* FavoriteUserDataStore.swift in Sources */,
 				7674E2ED252485FC00B48C63 /* UserListCell.swift in Sources */,
+				76D2818F256CC31200402993 /* Company+CoreDataClass.swift in Sources */,
+				76D28195256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */,
+				76D281AD256CDD5800402993 /* UserManagedObject.swift in Sources */,
 				7674E31525248DAA00B48C63 /* NSAttributedString+Builder.swift in Sources */,
+				76D281A9256CD4B300402993 /* UserStore.swift in Sources */,
 				7674E2D725247A5600B48C63 /* UserListInteractor.swift in Sources */,
 				7674E35B25249DD100B48C63 /* ControllerFactory.swift in Sources */,
 				7674E30525248AE200B48C63 /* UICollectionView+Reusable.swift in Sources */,
@@ -1115,20 +1207,26 @@
 				7674E38A2524E0D100B48C63 /* ServiceLocator+FavoriteUserDataService.swift in Sources */,
 				7674E30B25248AE200B48C63 /* UITableView+Reusable.swift in Sources */,
 				7674E2DD25247A5600B48C63 /* UserListRouter.swift in Sources */,
+				76D28183256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */,
+				76D2818C256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */,
 				76CBB4B5252464B20061F6DF /* NetworkUserService.swift in Sources */,
+				76D280F1256BE6CB00402993 /* ManagedObjectConvertible.swift in Sources */,
 				7674E3462524977B00B48C63 /* UserDetailsInteractor.swift in Sources */,
 				7674E30225248AE200B48C63 /* StoryboardBased.swift in Sources */,
 				76CBB4BC2524702B0061F6DF /* ServiceLocator+User.swift in Sources */,
 				7674E3862524C82D00B48C63 /* ObservationCoordinator.swift in Sources */,
 				7674E34F2524977B00B48C63 /* UserDetailsModels.swift in Sources */,
 				7674E3432524977B00B48C63 /* UserDetailsPresenter.swift in Sources */,
+				76D281B1256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */,
 				7674E36B25249ED100B48C63 /* DefaultControllerInstantiator.swift in Sources */,
 				7674E2D425247A5600B48C63 /* UserListPresenter.swift in Sources */,
 				7674E36725249E5300B48C63 /* ProvidesControllerConfigurator.swift in Sources */,
+				76D28192256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */,
 				7674E3832524C82D00B48C63 /* Observable.swift in Sources */,
 				7674E30E25248AE200B48C63 /* NibLoadable.swift in Sources */,
 				76CBB4B1252461C70061F6DF /* UserDTO.swift in Sources */,
 				7674E35725249DA400B48C63 /* DefaultControllerFactory.swift in Sources */,
+				76D28189256CC31200402993 /* Address+CoreDataProperties.swift in Sources */,
 				76CBB47625245B910061F6DF /* AppDelegate.swift in Sources */,
 				7674E36F25249EE500B48C63 /* DefaultControllerNamingStrategy.swift in Sources */,
 				7674E30825248AE200B48C63 /* Reusable.swift in Sources */,
@@ -1139,6 +1237,8 @@
 				7674E3802524C82D00B48C63 /* UsesObservationCoordinator.swift in Sources */,
 				76CBB47825245B910061F6DF /* SceneDelegate.swift in Sources */,
 				7674E31125248AE200B48C63 /* NibOwnerLoadable.swift in Sources */,
+				76D28186256CC31100402993 /* Address+CoreDataClass.swift in Sources */,
+				76D28180256CC31100402993 /* Company+CoreDataProperties.swift in Sources */,
 				7674E3402524977B00B48C63 /* UserDetailsConfigurator.swift in Sources */,
 				7674E2E825247AA200B48C63 /* ControllerConfigurator.swift in Sources */,
 				76CBB4B7252465B20061F6DF /* User.swift in Sources */,
@@ -1186,11 +1286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D2819C256CC43600402993 /* UserDB.xcdatamodeld in Sources */,
 				7674E3792524BB2200B48C63 /* FavoriteUserDataStore.swift in Sources */,
 				7674E2EE252485FC00B48C63 /* UserListCell.swift in Sources */,
 				7674E31625248DAA00B48C63 /* NSAttributedString+Builder.swift in Sources */,
 				7674E2D825247A5600B48C63 /* UserListInteractor.swift in Sources */,
+				76D281AE256CDD5800402993 /* UserManagedObject.swift in Sources */,
+				76D2818D256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */,
+				76D281AA256CD4B300402993 /* UserStore.swift in Sources */,
 				7674E35C25249DD100B48C63 /* ControllerFactory.swift in Sources */,
+				76D28190256CC31200402993 /* Company+CoreDataClass.swift in Sources */,
 				7674E30625248AE200B48C63 /* UICollectionView+Reusable.swift in Sources */,
 				76CBB4C3252472A50061F6DF /* AlamofireNetwork.swift in Sources */,
 				7674E34D2524977B00B48C63 /* UserDetailsViewController.swift in Sources */,
@@ -1199,13 +1304,18 @@
 				7674E37425249EF400B48C63 /* ControllerNamingStrategy.swift in Sources */,
 				7674E38B2524E0D100B48C63 /* ServiceLocator+FavoriteUserDataService.swift in Sources */,
 				7674E30C25248AE200B48C63 /* UITableView+Reusable.swift in Sources */,
+				76D28184256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */,
 				7674E2DE25247A5600B48C63 /* UserListRouter.swift in Sources */,
 				76CBB4C4252472A50061F6DF /* NetworkUserService.swift in Sources */,
+				76D28187256CC31200402993 /* Address+CoreDataClass.swift in Sources */,
 				7674E3472524977B00B48C63 /* UserDetailsInteractor.swift in Sources */,
 				7674E30325248AE200B48C63 /* StoryboardBased.swift in Sources */,
+				76D28193256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */,
+				76D28196256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */,
 				76CBB4C5252472A50061F6DF /* ServiceLocator+User.swift in Sources */,
 				7674E3872524C82D00B48C63 /* ObservationCoordinator.swift in Sources */,
 				7674E3502524977B00B48C63 /* UserDetailsModels.swift in Sources */,
+				76D281B2256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */,
 				7674E3442524977B00B48C63 /* UserDetailsPresenter.swift in Sources */,
 				7674E36C25249ED100B48C63 /* DefaultControllerInstantiator.swift in Sources */,
 				7674E2D525247A5600B48C63 /* UserListPresenter.swift in Sources */,
@@ -1213,6 +1323,7 @@
 				7674E3842524C82D00B48C63 /* Observable.swift in Sources */,
 				7674E30F25248AE200B48C63 /* NibLoadable.swift in Sources */,
 				76CBB4C6252472A50061F6DF /* UserDTO.swift in Sources */,
+				76D28181256CC31100402993 /* Company+CoreDataProperties.swift in Sources */,
 				7674E35825249DA400B48C63 /* DefaultControllerFactory.swift in Sources */,
 				76CBB4C7252472A50061F6DF /* AppDelegate.swift in Sources */,
 				7674E37025249EE500B48C63 /* DefaultControllerNamingStrategy.swift in Sources */,
@@ -1221,6 +1332,7 @@
 				76CBB4C9252472A50061F6DF /* Network.swift in Sources */,
 				7674E2E125247A5600B48C63 /* UserListViewController.swift in Sources */,
 				7674E34A2524977B00B48C63 /* UserDetailsRouter.swift in Sources */,
+				76D2818A256CC31200402993 /* Address+CoreDataProperties.swift in Sources */,
 				7674E3812524C82D00B48C63 /* UsesObservationCoordinator.swift in Sources */,
 				76CBB4CA252472A50061F6DF /* SceneDelegate.swift in Sources */,
 				7674E31225248AE200B48C63 /* NibOwnerLoadable.swift in Sources */,
@@ -1229,6 +1341,7 @@
 				76CBB4CB252472A50061F6DF /* User.swift in Sources */,
 				76CBB4CC252472A50061F6DF /* ServiceProvider.swift in Sources */,
 				7674E30025248AE200B48C63 /* StoryboardSceneBased.swift in Sources */,
+				76D281A2256CD17E00402993 /* ManagedObjectConvertible.swift in Sources */,
 				7674E36025249E3B00B48C63 /* ControllerInstantiator.swift in Sources */,
 				7674E31A2524902100B48C63 /* UIFont.swift in Sources */,
 				7674E2E425247A5600B48C63 /* UserListModels.swift in Sources */,
@@ -1241,11 +1354,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D2819B256CC42E00402993 /* UserDB.xcdatamodeld in Sources */,
 				7674E37A2524BB2200B48C63 /* FavoriteUserDataStore.swift in Sources */,
 				7674E2EF252485FC00B48C63 /* UserListCell.swift in Sources */,
 				7674E31725248DAA00B48C63 /* NSAttributedString+Builder.swift in Sources */,
 				7674E2D925247A5600B48C63 /* UserListInteractor.swift in Sources */,
+				76D281AF256CDD5800402993 /* UserManagedObject.swift in Sources */,
+				76D2818E256CC31200402993 /* AddressCoordinates+CoreDataProperties.swift in Sources */,
+				76D281AB256CD4B300402993 /* UserStore.swift in Sources */,
 				7674E35D25249DD100B48C63 /* ControllerFactory.swift in Sources */,
+				76D28191256CC31200402993 /* Company+CoreDataClass.swift in Sources */,
 				7674E30725248AE200B48C63 /* UICollectionView+Reusable.swift in Sources */,
 				76CBB4DF252472B10061F6DF /* AlamofireNetwork.swift in Sources */,
 				7674E34E2524977B00B48C63 /* UserDetailsViewController.swift in Sources */,
@@ -1254,13 +1372,18 @@
 				7674E37525249EF400B48C63 /* ControllerNamingStrategy.swift in Sources */,
 				7674E38C2524E0D100B48C63 /* ServiceLocator+FavoriteUserDataService.swift in Sources */,
 				7674E30D25248AE200B48C63 /* UITableView+Reusable.swift in Sources */,
+				76D28185256CC31100402993 /* AddressCoordinates+CoreDataClass.swift in Sources */,
 				7674E2DF25247A5600B48C63 /* UserListRouter.swift in Sources */,
 				76CBB4E0252472B10061F6DF /* NetworkUserService.swift in Sources */,
+				76D28188256CC31200402993 /* Address+CoreDataClass.swift in Sources */,
 				7674E3482524977B00B48C63 /* UserDetailsInteractor.swift in Sources */,
 				7674E30425248AE200B48C63 /* StoryboardBased.swift in Sources */,
+				76D28194256CC31200402993 /* ATUser+CoreDataClass.swift in Sources */,
+				76D28197256CC31200402993 /* ATUser+CoreDataProperties.swift in Sources */,
 				76CBB4E1252472B10061F6DF /* ServiceLocator+User.swift in Sources */,
 				7674E3882524C82D00B48C63 /* ObservationCoordinator.swift in Sources */,
 				7674E3512524977B00B48C63 /* UserDetailsModels.swift in Sources */,
+				76D281B3256D2F6000402993 /* ReachabilityObserverDelegate.swift in Sources */,
 				7674E3452524977B00B48C63 /* UserDetailsPresenter.swift in Sources */,
 				7674E36D25249ED100B48C63 /* DefaultControllerInstantiator.swift in Sources */,
 				7674E2D625247A5600B48C63 /* UserListPresenter.swift in Sources */,
@@ -1268,6 +1391,7 @@
 				7674E3852524C82D00B48C63 /* Observable.swift in Sources */,
 				7674E31025248AE200B48C63 /* NibLoadable.swift in Sources */,
 				76CBB4E2252472B10061F6DF /* UserDTO.swift in Sources */,
+				76D28182256CC31100402993 /* Company+CoreDataProperties.swift in Sources */,
 				7674E35925249DA400B48C63 /* DefaultControllerFactory.swift in Sources */,
 				76CBB4E3252472B10061F6DF /* AppDelegate.swift in Sources */,
 				7674E37125249EE500B48C63 /* DefaultControllerNamingStrategy.swift in Sources */,
@@ -1276,6 +1400,7 @@
 				76CBB4E5252472B10061F6DF /* Network.swift in Sources */,
 				7674E2E225247A5600B48C63 /* UserListViewController.swift in Sources */,
 				7674E34B2524977B00B48C63 /* UserDetailsRouter.swift in Sources */,
+				76D2818B256CC31200402993 /* Address+CoreDataProperties.swift in Sources */,
 				7674E3822524C82D00B48C63 /* UsesObservationCoordinator.swift in Sources */,
 				76CBB4E6252472B10061F6DF /* SceneDelegate.swift in Sources */,
 				7674E31325248AE200B48C63 /* NibOwnerLoadable.swift in Sources */,
@@ -1284,6 +1409,7 @@
 				76CBB4E7252472B10061F6DF /* User.swift in Sources */,
 				76CBB4E8252472B10061F6DF /* ServiceProvider.swift in Sources */,
 				7674E30125248AE200B48C63 /* StoryboardSceneBased.swift in Sources */,
+				76D281A3256CD17F00402993 /* ManagedObjectConvertible.swift in Sources */,
 				7674E36125249E3B00B48C63 /* ControllerInstantiator.swift in Sources */,
 				7674E31B2524902100B48C63 /* UIFont.swift in Sources */,
 				7674E2E525247A5600B48C63 /* UserListModels.swift in Sources */,
@@ -1640,6 +1766,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76D280F2256BE93600402993 /* UserDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76D280F3256BE93600402993 /* UserDB.xcdatamodel */,
+			);
+			currentVersion = 76D280F3256BE93600402993 /* UserDB.xcdatamodel */;
+			path = UserDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 76CBB46A25245B910061F6DF /* Project object */;
 }

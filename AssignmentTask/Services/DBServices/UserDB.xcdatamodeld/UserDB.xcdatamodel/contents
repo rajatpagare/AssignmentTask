@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Address" representedClassName="Address" syncable="YES">
+        <attribute name="city" attributeType="String"/>
+        <attribute name="street" attributeType="String"/>
+        <attribute name="suite" attributeType="String"/>
+        <attribute name="zipcode" attributeType="String"/>
+        <relationship name="addressToCoordinates" maxCount="1" deletionRule="Nullify" destinationEntity="AddressCoordinates"/>
+    </entity>
+    <entity name="AddressCoordinates" representedClassName="AddressCoordinates" syncable="YES">
+        <attribute name="lat" attributeType="String"/>
+        <attribute name="long" attributeType="String"/>
+    </entity>
+    <entity name="ATUser" representedClassName="ATUser" syncable="YES">
+        <attribute name="email" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="phone" attributeType="String"/>
+        <attribute name="username" attributeType="String"/>
+        <attribute name="website" attributeType="String"/>
+        <relationship name="userToAddress" maxCount="1" deletionRule="Nullify" destinationEntity="Address"/>
+        <relationship name="userToCompany" maxCount="1" deletionRule="Nullify" destinationEntity="Company"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Company" representedClassName="Company" syncable="YES">
+        <attribute name="bs" attributeType="String"/>
+        <attribute name="catchPhrase" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Address" positionX="-54" positionY="54" width="128" height="118"/>
+        <element name="AddressCoordinates" positionX="-45" positionY="81" width="128" height="73"/>
+        <element name="ATUser" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="Company" positionX="-36" positionY="90" width="128" height="88"/>
+    </elements>
+</model>

@@ -1,6 +1,0 @@
-framework module Pods_AssignmentTaskUITests {
-  umbrella header "Pods-AssignmentTaskUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
